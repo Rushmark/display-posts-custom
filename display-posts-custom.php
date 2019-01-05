@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Display Posts Custom
-Description: Changes the default behaviour of the Display Posts Plugin.
+Plugin Name: Display Posts Grid
+Description: Changes the default behaviour of the Display Posts Plugin
 Version: 0.1
 License: GPL
 Author: Chris Clarke
@@ -36,15 +36,17 @@ function be_dps_defaults( $out, $pairs, $atts ) {
 		'post_type'		=> 'page',
 		'post_parent'   => 'current',
 		'orderby'		=> 'menu_order',
+*/		
 		'order'			=> 'ASC',
-*/
 		'post_title'	=> true,
 		'image_size'	=> 'thumbnail',
-		'include_excerpt' => true,
+		'include_excerpt' => false,
 // 		'excerpt_dash'	=> false,
+/*
 		'excerpt_length'=> '40',
 		'excerpt_more'	  => " ...Read More",
 		'excerpt_more_link' => true,
+*/
 		'wrapper'			=> 'div',
 		
 	);
