@@ -5,3 +5,25 @@
 .display-posts-listing {
 	background: red;
 }
+
+.listing-item {
+	padding: 10px;
+}
+
+.display-posts-listing .image {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+.excerpt-dash {
+	display: none;
+}
+
+.excerpt a {
+	display: inline-block;
+	float: right;
+}
+
+.excertp a:after {
+	content: " \f139";	
+}

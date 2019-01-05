@@ -17,7 +17,7 @@ function dpc_add_styles()
 	    wp_register_style( 'dpc-style', plugins_url( '/css/dpc-style.css', __FILE__ ), array(), '20120208', 'all' );
 
 	    // enqueue the style:
-	    wp_enqueue_style( 'custom-style' );
+	    wp_enqueue_style( 'dpc-style' );
 	}
 add_action( 'wp_enqueue_scripts', 'dpc_add_styles' );
 
@@ -41,9 +41,9 @@ function be_dps_defaults( $out, $pairs, $atts ) {
 		'post_title'	=> true,
 		'image_size'	=> 'thumbnail',
 		'include_excerpt' => true,
-		'excerpt_dash'	=> false,
+// 		'excerpt_dash'	=> false,
 		'excerpt_length'=> '40',
-		'excerpt_more'	  => " Read More",
+		'excerpt_more'	  => " ...Read More",
 		'excerpt_more_link' => true,
 		'wrapper'			=> 'div',
 		

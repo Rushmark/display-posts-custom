@@ -10,5 +10,8 @@ Use shortcode to create the list.  e.g.
 
 or to show just the child pages of a page:
 
-[display-posts post_type="page" post_parent="8"] (can use post_parent="current")
+[display-posts post_type="page" orderby="title" order="DESC" post_parent="current"] (can use post_parent="8")
 
+## CSS
+
+The CSS file only covers the layout of the sub-pages/posts.  Any backgrounds our changes to colours should be done in the theme css.
