@@ -1,0 +1,7 @@
+/* Styling for the Display Posts, as customised */
+
+/* Classes in use: display-posts-listing, listing-item, a.image, excerpt-dash, excerpt */
+
+.display-posts-listing {
+	background: red;
+}
